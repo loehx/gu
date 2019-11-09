@@ -1,0 +1,53 @@
+{{ define "og-title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+
+<section class="container">
+    <h1 class="title">{{ .Title }}</h1>
+
+    <ul class="projects">
+
+        {{ range .Paginator.Pages }}
+        <li class="projects__item">
+
+            <div class="projects__item__left">
+
+                {{ with .Title }}
+                <h2 class="projects__item__name">
+                    {{ . }}
+                </h2>
+                {{ end }}
+
+                {{ if and .Params.start .Params.end }}
+                <span class="projects__item__date">
+                    {{ .Params.start }} - {{ .Params.end }}
+                </span>
+                {{ end }}
+
+            </div>
+
+            <div class="projects__item__right">
+
+                {{ with .Description }}
+                <p class="projects__item__description">
+                    {{ truncate 100 . }}
+                </p>
+                {{ end }}
+
+                <div class="projects__item__more">
+                    <a href="{{ .Permalink }}">mehr -></a>
+                </div>
+
+            </div>
+
+        </li>
+        {{ end }}
+
+    </ul>
+</section>
+
+{{ end }}

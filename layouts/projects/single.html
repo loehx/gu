@@ -1,0 +1,54 @@
+{{ define "og-title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "title" }}
+  {{ .Title }} - {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+
+<section class="container project">
+
+    <a href="/{{ .Type }}">Zurück</a>
+
+    {{ with .Title }}
+    <h1 class="project__name">
+        {{ . }}
+    </h1>
+    {{ end }}
+
+    {{ if and .Params.start .Params.end }}
+    <span class="project__date">
+        {{ .Params.start }} - {{ .Params.end }}
+    </span>
+    {{ end }}
+
+    {{ with .Params.company }}
+    <div class="project__company">
+
+        {{ with .name }}
+        <span class="project__company__name">{{ . }}</span>
+        {{ end }}
+
+        {{ with .type }}
+        <span class="project__company__type">({{ . }})</span>
+        {{ end }}
+
+        {{ with .url }}
+        <a href="{{ . }}" class="project__company__url">
+            {{ $url := replace . "http://" "" }}
+            {{ $url := replace $url "https://" "" }}
+            {{ $url }}
+        </a>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ .Content }}
+
+    {{ range .Params.technologies }}
+        <a href="http://lmgtfy.com/?{{ querify "q" . | safeURL }}">{{ . }}</a>
+    {{ end }}
+
+</section>
+
+{{ end }}

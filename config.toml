@@ -1,0 +1,58 @@
+baseurl = "https://awesome-newton-a51203.netlify.com"
+title = "Alexander Löhn"
+theme = "coder-portfolio"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Alexander Löhn"
+    info = "WEB AND APPS ENGINEER"
+    description = "Alexander Löhn's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.jpg"
+
+    footercontent = "Enter a text here."
+    fixedbarContent = "Do you want to know me more private?→"
+    fixedbarContentAfter = "Thank You! Please share it if you like it→"
+
+    hideCredits = false
+    hideCopyright = false
+
+    custom_css = ["css/main.css", "css/project.css", "css/projects.css"]
+
+    itemscentered = true
+    rtl = false
+    snsShare = true
+    thumbnail = "images/tn.png"
+    langseparator = "|"
+
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/naro143/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/naro143/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/naro143/"
+
+[[menu.main]]
+    name = "Projekte"
+    weight = 1
+    url  = "projects"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "about"
