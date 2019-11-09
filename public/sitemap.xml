@@ -3,147 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://awesome-newton-a51203.netlify.com/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <loc>https://loehx.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://loehx.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://awesome-newton-a51203.netlify.com/projects/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <loc>https://loehx.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://awesome-newton-a51203.netlify.com/projects/xstarters/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+    <loc>https://loehx.github.io/contact/</loc>
   </url>
   
   <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/featuresofcoderportfolio.ja/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/featuresofcoderportfolio/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
+    <loc>https://loehx.github.io/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/theme-demo/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/theme-demo.ja/</loc>
-    <lastmod>2018-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/projects/businessbike/</loc>
-    <lastmod>2017-08-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/categories/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/categories/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/tags/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/posts/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://awesome-newton-a51203.netlify.com/contact/</loc>
   </url>
   
 </urlset>
